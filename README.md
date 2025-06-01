@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 ## 🌈 My GitHub 3D Contribution
 
-![3D Profile](https://raw.githubusercontent.com/yoyosan/profile-3d-contrib/main/profile-night-rainbow.svg)
+![](./profile-3d-contrib/profile-night-rainbow.svg)
