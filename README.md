@@ -28,4 +28,5 @@
 
 <!-- ⬇ Night Rainbow 3D Contribution Graph - 맨 아래에 배치 -->
 <div align="center" style="margin-top: 40px;">
-  <img src="./profile-3d-contrib/profile-ni
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Profile - Night Rainbow" style="max-width: 100%; height: auto;" />
+</div>
