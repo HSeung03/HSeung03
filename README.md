@@ -27,5 +27,6 @@
   <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;">🌿 3D Contribution Graph</h2>
 </div>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HSeung03/HSeung03/main/profile-3d-contrib/profile-night-view.svg" />
+  <img src="https://raw.githubusercontent.com/HSeung03/HSeung03/main/profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
+
