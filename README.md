@@ -1,5 +1,5 @@
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=000000&height=240&text=Hi!%20I'm%20SeungHyeok&animation=&fontColor=4a6dbf&fontSize=90" />
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=000000&height=240&text=Hi!%20I'm%20SeungHyeok&animation=&fontColor=ffffff&fontSize=90" />
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> Introduction </h2>  
