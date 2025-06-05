@@ -1,16 +1,20 @@
-
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <rect x="0" y="0" width="600" height="400" fill="#1e1e1e"/>
-    <circle cx="300" cy="200" r="100" fill="url(#gradient)" />
-    <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="20">GitHub Contributions</text>
-    <!-- 더 많은 path, rect, animate 요소들 -->
-  </g>
-
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff0000; stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0000ff; stop-opacity:1" />
-    </linearGradient>
-  </defs>
-</svg>
+{
+  "type": "rainbow",
+  "fileName": "profile-custom-rainbow.svg",
+  "backgroundColor": "#00000f",
+  "foregroundColor": "#eeeeff",
+  "strongColor": "rgb(255,200,55)",
+  "weakColor": "#aaaaaa",
+  "radarColor": "rgb(255,200,55)",
+  "growingAnimation": true,
+  "saturation": "50%",
+  "contribLightness": [
+    "20%",
+    "30%",
+    "35%",
+    "40%",
+    "50%"
+  ],
+  "duration": "10s",
+  "hueRatio": -7
+}
