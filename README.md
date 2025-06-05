@@ -30,10 +30,3 @@
   <img src="https://raw.githubusercontent.com/HSeung03/HSeung03/main/profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
 
-## 🛠️ Tech Stacks
-
-![python][python]
-![docker][docker]
-
-[python]: https://img.shields.io/badge/Python-000080?style=for-the-badge&logo=Python&logoColor=white
-[docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white
