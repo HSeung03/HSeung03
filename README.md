@@ -24,6 +24,6 @@
         <!-- ✅ 수정된 GitHub Stats 카드 -->
         <img src="https://github-readme-stats.vercel.app/api?username=HSeung03&show_icons=true&bg_color=0d1117&title_color=00ffbb&text_color=00ffaa&icon_color=66ffcc" />
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HSeung03&layout=compact&bg_color=0d1117&title_color=00ffbb&text_color=00ffaa&icon_color=66ffcc" />
-        <img src="https://git-hub-streak-stats.vercel.app/?user=HSeung03&theme=shadow_green" />
+        <img src="https://git-hub-streak-stats.vercel.app/?user=HSeung03&theme=default&background=0D1117&ring=00ffaa&fire=00ffaa&currStreakNum=00ffaa&sideNums=00ffaa&currStreakLabel=00ffaa&sideLabels=00ffaa&dates=00ffaa" />
     </div> 
 </div>
