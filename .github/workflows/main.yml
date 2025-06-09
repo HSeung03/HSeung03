@@ -23,4 +23,4 @@ jobs:
           git config user.email "lsh232986@naver.com"
           git add .
           git commit -m "generated" || echo "No changes to commit"
-          git push http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/HSeung03/HSeung03.git master
+          git push http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/HSeung03/HSeung03.git main
