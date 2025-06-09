@@ -1,0 +1,29 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"  # 매일 한국시간 03:00 (UTC 기준 18:00)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: HSeung03
+
+      - name: Commit and Push
+        run: |
+          git config user.name "HSeung03"
+          git config user.email "lsh232986@naver.com"
+          git add -A
+          git commit -m "📈 Auto-generate 3D contribution graph"
+          git push
