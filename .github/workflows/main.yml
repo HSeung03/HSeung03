@@ -2,7 +2,7 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # 매일 한국시간 03:00 (UTC 기준 18:00)
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 jobs:
@@ -20,10 +20,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: HSeung03
 
-      - name: Commit and Push
+      - name: Commit & Push
         run: |
-          git config user.name "HSeung03"
-          git config user.email "lsh232986@naver.com"
+          git config --global user.name "HSeung03"
+          git config --global user.email "lsh232986@naver.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add -A
           git commit -m "📈 Auto-generate 3D contribution graph"
           git push
