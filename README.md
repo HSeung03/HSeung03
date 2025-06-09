@@ -4,10 +4,14 @@
 
 ---
 
-### 📌 Introduction
-
-I'm Lee Seunghyuk from the Department of Global System Convergence at Youngjin University.
-
+<div style="text-align: left;">
+  <h2 style="border-bottom: 1px solid #00ffaa; color: #00ffaa;"> 📌 Introduction </h2>  
+  <div style="font-size: 16px; line-height: 1.6; color: #c9d1d9;">
+    I'm <strong style="color: #00ffaa;">Lee Seunghyuk</strong> from the  
+    <strong style="color: #00ffaa;">Department of Global System Convergence</strong>  
+    at <strong style="color: #00ffaa;">Youngjin University</strong>.
+  </div>
+</div>
 ---
 
 ### 🛠️ Tech Stacks
