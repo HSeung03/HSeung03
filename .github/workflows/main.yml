@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Commit message'
+        required: true
+        default: '📈 Auto-generate 3D contribution graph'
+        type: string
 
 jobs:
   build:
@@ -11,20 +17,27 @@ jobs:
     name: generate-github-profile-3d-contrib
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Generate 3D Contribution Graph
+      - name: Generate 3D contributions
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: HSeung03
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Set up Git
+        run: |
+          git config user.name "HSeung03"
+          git config user.email "lsh232986@naver.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Pull remote changes with rebase
+        run: |
+          git pull origin main --rebase || true
 
       - name: Commit & Push
         run: |
-          git config --global user.name "HSeung03"
-          git config --global user.email "lsh232986@naver.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add -A
-          git commit -m "📈 Auto-generate 3D contribution graph"
-          git push
+          git add -A .
+          git commit -m "${{ github.event.inputs.commit_message }}" || echo "No changes to commit"
+          git push origin main
