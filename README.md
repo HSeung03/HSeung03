@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=240&text=SeungHyeok's%20GitHub&animation=blink&fontColor=00ffaa&fontSize=60" />
 </div>
 
-<!-- 🟩 Introduction -->
+<!-- 🟩 소개 -->
 <div style="text-align: left; margin-bottom: 50px;">
   <h2 style="border-bottom: 1px solid #00ffaa; color: #00ffaa; margin-bottom: 15px;"> 📌 Introduction </h2>  
   <div style="font-size: 16px; line-height: 1.8; color: #c9d1d9;">
@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<!-- 🟩 Tech Stacks -->
+<!-- 🛠️ 기술 스택 -->
 <div style="text-align: left; margin-bottom: 50px;">
   <h2 style="border-bottom: 1px solid #00ffaa; color: #00ffaa; margin-bottom: 15px;"> 🛠️ Tech Stacks </h2> 
   <div style="text-align: left; line-height: 2;">
@@ -23,11 +23,10 @@
   </div>
 </div>
 
-<!-- 🟩 Stats -->
+<!-- 🏅 GitHub 통계 -->
 <div style="text-align: left; margin-bottom: 50px;">
   <h2 style="border-bottom: 1px solid #00ffaa; color: #00ffaa; margin-bottom: 15px;"> 🏅 Stats </h2> 
 
-  <!-- 2열: GitHub Stats + Top Languages -->
   <div align="center" style="margin-bottom: 30px;">
     <table>
       <tr>
@@ -41,14 +40,14 @@
     </table>
   </div>
 
-  <!-- Streak Stats -->
   <div align="center" style="margin-bottom: 50px;">
     <img src="https://git-hub-streak-stats.vercel.app/?user=HSeung03&theme=default&background=0D1117&ring=00ffaa&fire=00ffaa&currStreakNum=00ffaa&sideNums=00ffaa&currStreakLabel=00ffaa&sideLabels=00ffaa&dates=00ffaa" />
   </div>
 </div>
 
-<!-- 🟩 3D 잔디 SVG -->
+<!-- 🧱 3D 잔디 SVG -->
 <div align="center" style="margin-top: 30px;">
   <img src="https://raw.githubusercontent.com/HSeung03/HSeung03/main/profile-3d-contrib/profile-night-green.svg" />
 </div>
+
 
